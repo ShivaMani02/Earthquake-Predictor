@@ -1,3 +1,6 @@
+#Code By-Shivansh Vasu
+
+
 from flask import Flask,request, url_for, redirect, render_template
 import pickle
 import numpy as np
@@ -84,7 +87,7 @@ if __name__ == "__main__":
 
 
 
-
+#Code By-Shivansh Vasu
 
 
 
