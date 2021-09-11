@@ -1,3 +1,6 @@
+#Code By-Shivansh Vasu
+
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -26,3 +29,7 @@ rfc.fit(X_train, y_train)
 
 
 pickle.dump(rfc,open('model.pkl','wb'))
+
+
+
+#Code By-Shivansh Vasu
