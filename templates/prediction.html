@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="/static/prediction.css">
+</head>
+<body>
+    <h1>Earthquake Prediction</h1>
+    <div class="form">
+        <h2>The chances of Earthquake according to
+            Predicted Result is:</h2>
+        <div class="form-2">
+            <p class="prediction">The expected intensity at Richter
+                magnitude at the Provided Coordinates is
+                about:<br><span class="value">{{ p }}</span></p>
+            <p class="messages">The Location is at: <br><span class="message">{{ q }} Risk!</span></p>
+            <p><a href="/">Go back to the home page</a></p>
+        </div>
+    </div>
+</body>
+</html>

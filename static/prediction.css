@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:skyblue;
+   
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+p{
+    font-size: larger;
+    text-align: center;
+}
+
+.value{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.message{
+    font-weight: bolder;
+    font-size: large;
+}

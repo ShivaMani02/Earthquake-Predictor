@@ -1,6 +1,3 @@
-#Code By-Shivansh Vasu
-
-
 from flask import Flask,request, url_for, redirect, render_template
 import pickle
 import numpy as np
@@ -13,38 +10,6 @@ model=pickle.load(open('model.pkl','rb'))
 @app.route('/')
 def home():
     return render_template('homepage.html')
-
-
-@app.route('/home')
-def home2():
-    return render_template('homepage.html')
-
-    
-@app.route('/error')
-def error():
-    return render_template('error.html')
-
-
-@app.route('/aboutproject')
-def aboutproject():
-    return render_template('aboutproject.html')
-
-
-
-@app.route('/review')
-def review():
-    return render_template('review.html')
-
-
-@app.route('/sourcecode')
-def sourcecode():
-    return render_template('sourcecode.html')
-
-@app.route('/creator')
-def creator():
-    return render_template('creator.html')
-
-
 
 
 
@@ -83,11 +48,6 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 
-
-
-
-
-#Code By-Shivansh Vasu
 
 
 
