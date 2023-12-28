@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/static/homepage.css">
+</head>
+<body>
+    <h1>Earthquake Prediction</h1>
+    <div class="form">
+        <p class="text-info">Fill the following details to predict the Earthquake Possibility around you!</p>
+    <form method="POST" action="/prediction">
+        <label for="a">Lattitude</label><br>
+        <input class="input" type="number" name="a" placeholder="Format- 26.76" required>
+        <p class="info">Range-8°4'N and 37°6'N (Indian Coordinates)</p>
+        <label for="b">Longitude</label><br>
+        <input class="input" type="number" name="b" placeholder="Format- 83.37" required>
+        <p class="info">Range-68°7'E and 97°25'E (Indian Coordinates)</p>
+        <label for="c">Height</label><br>
+        <input class="input" type="number" name="c" placeholder="Format- 84.00" required>
+        <p class="info">Range- 0m-280m (Indian Levels)</p>
+        <input  class="submit" type="submit" value="Predict">
+    </div>
+
+
+    </form>
+</body>
+</html>
